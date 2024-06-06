@@ -1,0 +1,84 @@
+body{
+	margin: 0px;
+}
+.coffee-header{
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	left: 0px; 
+	right: 0px;
+	background-color: #0a2d42;
+	z-index: 100;
+}
+.div-logo{
+    height: 100%;
+    margin: 10px;
+    float: left;
+}
+.logo-text{
+    font-weight: bold;
+    font-family: "Helvetica Neue";
+    display: block;
+    color: white;
+}
+.coffee-nav{
+    height: 100%;
+    float: right;
+}
+.coffee-nav a{
+	font-weight: 700;
+    font-family: "Helvetica Neue";
+    font-size: 15px;
+	padding-top: 12%;
+	padding-right: 20px;
+	color: white;
+	display: inline-block;
+}
+.site-content{
+	position: absolute;
+	top: 78px;
+	width: 100%;
+}
+.image-content{
+	background-image: url("background-image.jpg");
+	height: 700px;
+	width: 100%;
+	text-align: center;
+}
+.quote{
+	color: white;
+	font-family: "Helvetica Neue";
+	position: relative;
+	top: 10%;
+}
+.card-list{
+	width: 100%;
+}
+#product{
+	text-align: center;
+}
+.card{
+	width: 22%;
+	padding: 1.5%;
+	height: 300px;
+	float: left;
+	text-align: center;
+}
+.card img
+{
+	width: 100%;
+	}
+.order-section{
+	width: 100%;
+}
+#order{
+	text-align: center;
+}
+.form{
+	width: 200px;
+	margin: 0 auto;
+}
+.form input{
+	padding: 10px;
+	margin: 10px;
+}
